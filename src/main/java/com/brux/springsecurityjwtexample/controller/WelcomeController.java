@@ -8,7 +8,7 @@ public class WelcomeController {
 
 	@GetMapping("/")
 	public String welcomePage() {
-		return "Welcome to my custom spring security";
+		return "Welcome to my custom spring security updated";
 	}
 	
 }
